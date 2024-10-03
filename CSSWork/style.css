@@ -1,0 +1,79 @@
+/* .container{
+    background-color: cadetblue;
+    height: 400px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    border: 3px solid red;
+    box-sizing: border-box;
+}
+.child1{
+    background-color: chocolate;
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px dotted green;
+    padding-top: 50px;
+} */
+/* div+p{
+    background-color: aqua;
+} */
+ .container{
+    height: 800px;
+     width:1000px; 
+    background-color: aqua;
+    border: 2px solid red;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction:row-reverse; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    justify-content: space-around;
+    align-items: center; 
+    /* align-items: end; */
+}
+.child1,.child2,.child3,.child4{
+    border: 2px solid;
+    height: 300px;
+    width: 230px;
+    /* display: inline-block; */
+    padding: 20px;
+    margin: 20px;
+}
+.child1{
+    display: flex;
+    background-color: palevioletred;
+    gap: 4px;
+    flex-basis: 50%;
+}
+.child2{
+    background-color: blue;
+}
+.child3{
+    background-color: blueviolet;
+}
+.child4{
+    background-color: black;
+    display: flex;
+}
+.child11,.child12,.child13,.child14{
+    border: 2px dotted red;
+    
+}
+.child11{
+    background-color: azure;
+    flex-basis: 30%;
+}
+.child12{
+    background-color: pink;
+}
+.child13{
+    background-color: aquamarine;
+}
+.child14{
+    background-color: lightslategray;
+}
