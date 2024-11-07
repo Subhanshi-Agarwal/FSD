@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERN Stack Quiz</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h2>Online Quiz</h2>
+    <div class="container">
+        <form>
+       <div class="Ques1">
+            <h3>What is the capital of India</h3>
+            <input type="radio" id="option11" name="option" value="New Delhi" checked>
+            <label for="option11">New Delhi</label><br>
+            <input type="radio" id="option12" name="option" value="Lucknow">
+            <label for="option12">Lucknow</label><br>
+            <input type="radio" id="option13" name="option" value="Uttar Pradesh">
+            <label for="option13">Uttar Pradesh</label><br>
+            <input type="radio" id="option14" name="option" value="Uttarakhand">
+            <label for="option14">Uttarakhand</label><br>
+            <button class="b1">Pervious</button>
+            <button class="b2">Next</button>
+       </div>
+        </form>
+        <form>
+       <div class="Ques2">
+            <h3>Which planet is known as red planet?</h3>
+            <input type="radio" id="option21" name="option" value="Earth">
+            <label for="option21">Earth</label><br>
+            <input type="radio" id="option22" name="option" value="Mars">
+            <label for="option22">Mars</label><br>
+            <input type="radio" id="option23" name="option" value="Jupiter" checked>
+            <label for="option23">Jupiter</label><br>
+            <input type="radio" id="option24" name="option" value="Saturn">
+            <label for="option24">Saturn</label><br>
+            <button class="b1">Pervious</button>
+            <button class="b2">Next</button>
+        </div>
+    </form>
+    <form>
+        <div class="Ques3">
+            <h3>What is the largest ocean on earth?</h3>
+            <input type="radio" id="option31" name="option" value="Atlantic">
+            <label for="option31">Atlantic</label><br>
+            <input type="radio" id="option32" name="option" value="Indian">
+            <label for="option32">Indian</label><br>
+            <input type="radio" id="option33" name="option" value="Arctic">
+            <label for="option33">Arctic</label><br>
+            <input type="radio" id="option34" name="option" value="Pacific" checked>
+            <label for="option34">Pacific</label><br>
+            <button class="b1" onclick="previousquestion()">Pervious</button>
+            <button class="b2" onclick="nextquestion()">Next</button>
+            <button class="b3" onclick="submitquestion()">Submit</button>
+            <p id="score" style-display="none">Your Score</p>
+        </div>
+    </form>
+
+
+    </div>
+    
+</body>
+</html>
